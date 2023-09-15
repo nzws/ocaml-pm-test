@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Use OCaml ${{ matrix.ocaml-compiler }}
-        uses: nzws/setup-ocaml@ocaml-problem-matcher
+        uses: nzws/setup-ocaml@3613a4cde014cd14343474f05a4fc3efbf2f1834
         with:
           ocaml-compiler: ${{ matrix.ocaml-compiler }}
 
